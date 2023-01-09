@@ -1,0 +1,134 @@
+
+body{
+	background: #FADFFA;
+}
+
+header{
+	background: #ff8ad2;
+}
+
+.titulo{
+	color: #FFFFFF;
+	position: absolute;
+	left: 180px;
+	bottom: 100px;
+	font-weight: bold;
+	margin-left: 170px;
+
+}
+.titulo h1{
+	font-size: 60px;
+	text-align: center;
+}
+
+.titulo p{
+	font-size: 30px;
+	margin-left:20px ;
+	text-align: center;
+}
+
+.caixa{
+	position: relative;
+	width: 940px;
+	margin: 70px auto;
+}
+
+nav{
+	position: absolute;
+	bottom: 280px;
+	right: 0;
+
+}
+
+nav li{
+	display: inline-block;
+	margin: 5px;
+}
+
+
+.banner{
+	width: 300px;
+	height: 300px;
+	display: inline;
+}
+
+.produtos{
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+	text-align: center;
+}
+
+.produtos li{
+	display: inline-block;
+	text-align: center;
+	margin-left: 30px;
+	border: 2px solid #FF8AD2;
+	border-radius: 20px;
+	border-top:3px solid #FF9999; 
+	border-bottom:3px solid #FF9999;
+	padding: 20px 0;
+	transition: 1s;
+}
+
+.produtos img{
+	width: 250px;
+	height: 250px;
+
+
+}
+
+.tituloProdutos{
+	font-size: 30px;
+
+}
+
+.descricao{
+	font-size: 18px;
+	margin: 0 20px;
+}
+
+.produtos :hover{
+	transform: scale(1.2);
+	cursor: pointer;
+}
+
+.produtos a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.endereco{
+	text-align: center;
+	font-size: 30px;
+	margin: 30px 0;
+	padding: 10px;
+}
+
+.endereco p{
+	font-size: 22px;
+}
+
+.endereco img{
+	border: 2px solid;
+	border-radius: 12px;
+}
+
+footer{	
+	text-align: center;
+	background-image: url("../imagens/bg.png");
+	padding: 40px 20px;
+}
+
+footer p {
+	font-size: 23px;
+	color: #000000;
+	margin-top: 20px;s
+	font-weight: bold;
+	border: 2px solid #CCCCCC;
+	border-bottom: 5px solid #CCCCCC;
+	border-radius: 20px;
+	width: 500px;
+	margin: 0 auto;
+	background: #FFFFFF;
+}
